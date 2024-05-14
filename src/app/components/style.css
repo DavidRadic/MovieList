@@ -1,0 +1,27 @@
+.movie-item {
+    display: flex;
+    justify-content: space-between; /* Placerar titeln till höger och bilderna till vänster */
+    align-items: center;
+    background-color: #eee;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px #999;
+  }
+  
+  /* Stil för titeln */
+  .movie-item > span {
+    flex: 1; 
+  }
+  
+  /* Stil för bilderna */
+  .movie-item img {
+    height: 25px; /* Justerar höjden på bilderna */
+    width: 25px; /* Justerar bredden på bilderna */
+    margin-left: 5px;
+  }
+  
+  .delete-movie-icon {
+    cursor: pointer;
+  }
+  
+  
