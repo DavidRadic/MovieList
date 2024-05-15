@@ -1,6 +1,6 @@
 .movie-item {
   display: flex;
-  justify-content: space-between; /* Placerar titeln till höger och bilderna till vänster */
+  justify-content: space-between; /* Placerar titeln till vänster och bilderna till höger */
   align-items: center;
   background-color: #eee;
   margin: 5px;
