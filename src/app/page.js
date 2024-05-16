@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import MovieForm from './components/MovieForm';
 import MovieList from './components/MovieList';
-import { sortByTitle, sortByRating } from './components/sortMovies'; 
+import { sortByTitle, sortByRating } from './components/SortMovies'; 
 
 function Pages() {
   const [movies, setMovies] = useState([]);
